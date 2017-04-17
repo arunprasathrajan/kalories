@@ -11,7 +11,7 @@ class KaloriesTableSeeder extends Seeder
      */
     public function run()
     {
-         DB::table('kalories')->truncate();
+        DB::table('kalories')->truncate();
 
         DB::table('kalories')->insert([
         	[

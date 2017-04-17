@@ -1,5 +1,5 @@
-<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#filter">
-         Filter  <span class="caret"></span></button>
+<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#filter">
+         Click to see Total Calories  <span class="caret"></span></button>
         <div id="filter" class="collapse {{ !empty($filterDates) ? 'in' : '' }}">
             {{ Form::open(array('url' => '/filter', 'method' => 'post', 'class' => 'form-inline' )) }}
                 {{ csrf_field() }}
